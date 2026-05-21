@@ -191,4 +191,3 @@ The final English report will contain:
 - [ ] PR curve at IoU 0.7 is saved.
 - [ ] Example prediction visualizations are saved.
 - [ ] English report includes results, curves, discussion, and conclusion.
-
