@@ -26,4 +26,3 @@ python train_widerface.py \
   --batch-size "$BATCH_SIZE" \
   --workers "$WORKERS" \
   --name widerface_yolov5n_pretrained_640
-
