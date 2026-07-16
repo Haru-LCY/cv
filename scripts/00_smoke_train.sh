@@ -19,4 +19,3 @@ python train_widerface.py \
   --max-train-samples 64 \
   --max-val-samples 16 \
   --name smoke_5090
-
