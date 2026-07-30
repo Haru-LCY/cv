@@ -17,7 +17,6 @@ from torch.utils.data import Dataset
 
 from utils.augmentations import letterbox
 
-
 IMG_FORMATS = {".bmp", ".dng", ".jpeg", ".jpg", ".mpo", ".png", ".tif", ".tiff", ".webp"}
 
 
@@ -42,8 +41,8 @@ def xyxy_to_xywhn(boxes: np.ndarray, width: int, height: int, eps: float = 1e-3)
 def parse_widerface_annotations(root: str | Path, split: str, skip_invalid: bool = True) -> list[WiderFaceRecord]:
     """Parse the official WIDER FACE bbox txt file.
 
-    WIDER FACE has a small quirk: images with zero boxes still have one dummy box line
-    in the txt file. The parser consumes that line when `num_boxes == 0`.
+    WIDER FACE has a small quirk: images with zero boxes still have one dummy box line in the txt file. The parser
+    consumes that line when `num_boxes == 0`.
     """
     root = Path(root)
     split = split.lower()
