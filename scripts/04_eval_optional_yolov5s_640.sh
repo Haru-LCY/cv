@@ -17,4 +17,3 @@ python eval_widerface.py \
   --batch-size "$BATCH_SIZE" \
   --workers "$WORKERS" \
   --name widerface_yolov5s_scratch_640
-
