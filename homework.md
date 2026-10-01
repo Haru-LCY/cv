@@ -18,12 +18,13 @@ Part 3 — Experiments and Discussion (Optional)
 Students may optionally explore different modules or hyperparameters and briefly discuss their effects on performance.
 Submission
 Submit:
+
 1. Source code
 2. An English report including:
-• Experimental results
-• Curves/visualizations
-• Brief discussion and conclusion
+   • Experimental results
+   • Curves/visualizations
+   • Brief discussion and conclusion
 
 Note: Trained model weights are not required.
 
-[1]: https://arxiv.org/abs/1506.02640  "You Only Look Once: Unified, Real-Time Object Detection"
+[1]: https://arxiv.org/abs/1506.02640 "You Only Look Once: Unified, Real-Time Object Detection"
