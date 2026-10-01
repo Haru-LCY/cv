@@ -28,7 +28,6 @@ from models.experimental import attempt_load
 from utils.general import non_max_suppression, scale_boxes
 from utils.torch_utils import select_device
 
-
 TRAPEZOID = np.trapezoid if hasattr(np, "trapezoid") else np.trapz
 
 
