@@ -189,4 +189,3 @@ The main self-implemented parts in this submission are:
 - training and evaluation scripts specialized for face detection
 
 This makes the project more than a direct Ultralytics command-line run while still using YOLOv5 as a reasonable reference implementation.
-
